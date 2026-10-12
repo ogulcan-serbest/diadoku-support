@@ -25,11 +25,27 @@
     <nav><a href="index.html">← Diadoku Support</a></nav>
     <article>
       <h1>Privacy Policy</h1>
-      <p class="updated">Effective date: September 3, 2026</p>
+      <p class="updated">Effective date: October 12, 2026</p>
       <p>This Privacy Policy explains how Diadoku, developed by Ogulcan Serbest ("Diadoku", "we", "us", or "our"), handles information when you use the Diadoku iOS app.</p>
 
-      <h2>Information stored on your device</h2>
-      <p>Diadoku does not require an account. Game progress, completed levels, best results, daily streak, hint balance, tutorial state, and audio or haptic preferences are stored locally on your device using Apple system storage. We do not operate a server that receives this game data. Removing the app may remove locally stored game data.</p>
+      <h2>Information stored on your device and in iCloud</h2>
+      <p>Diadoku does not require an account. Game progress, completed levels, best results, stars, daily streak, hint balance, profile gem and frame, tutorial state, and audio, haptic, appearance and reminder preferences are stored locally on your device using Apple system storage.</p>
+      <p>If iCloud is turned on for Diadoku on your device, Apple's iCloud key-value storage keeps a copy of your game progress and of your star league player identity (see below), so another device signed in to the same Apple Account can continue where you left off. This copy is stored by Apple in your iCloud account under Apple's terms; we cannot access your iCloud account. You can turn this off for Diadoku in iOS Settings under your Apple Account and iCloud.</p>
+
+      <h2>Star league</h2>
+      <p>Diadoku has a weekly star league and an all-time leaderboard. To take part, the app creates a random player identifier and a random secret on your device; no account, email or Apple ID is used. When you solve puzzles, the app sends the following to our league server:</p>
+      <ul>
+        <li>the random player identifier, and the secret, of which the server stores only a one-way hash;</li>
+        <li>your player name (a random name such as "Gem1234" until you change it in your profile), your chosen gem and frame;</li>
+        <li>your total stars and the stars you earned in each league week, and when they last changed;</li>
+        <li>names you report or players you hide, if you use these options.</li>
+      </ul>
+      <p>Your player name, gem, frame, stars, rank and when you last earned stars are visible to other players in the leaderboard. Please do not use your real name or any personal information as your player name. Names are checked against a list of offensive words, and a name that several players report is hidden until it is changed.</p>
+      <p>The league server is run on Supabase, hosted in the European Union (Ireland). Like any server, it may briefly log technical connection data such as IP addresses for operation and security. We use league data only to run the leaderboard and the weekly rewards.</p>
+
+      <h2>Usage analytics</h2>
+      <p>To understand how the game is played and where it can be improved, Diadoku uses PostHog, hosted in the European Union. The app sends anonymous events such as levels started, completed, failed or left, hints and optional ads used, tutorial steps, which home screen buttons and settings are used, results shared, daily streaks, and when the app is opened. Each event comes with technical information such as the device model, iOS version, app version, language and time zone, and an anonymous random identifier for this installation.</p>
+      <p>Analytics never include your name, email, advertising identifier, league player name or screen recordings, and they are not used for advertising or to track you across apps. PostHog may use your IP address to estimate an approximate location (such as the country), and we have set PostHog not to store the IP address itself. In the European Economic Area, the United Kingdom and Switzerland, analytics are only sent if you agree in the consent form to storing information on your device and to measuring content performance. We keep analytics data for up to one year. See <a href="https://posthog.com/privacy">PostHog's Privacy Policy</a> for more information.</p>
 
       <h2>Advertising and third-party services</h2>
       <p>Diadoku uses Google Mobile Ads (AdMob) to provide banner, interstitial, and optional rewarded advertisements. Google and its advertising partners may process information such as:</p>
@@ -50,21 +66,29 @@
       </ul>
       <p>This information is used to operate the feedback board and associate submissions and votes with an installation. Diadoku does not send your email address, name, payment information, or a Diadoku account identifier to WishKit. Do not include sensitive personal information in feedback you submit. See <a href="https://www.wishkit.io/privacy-policy">WishKit's Privacy Policy</a> for more information.</p>
 
+      <h2>Daily reminders</h2>
+      <p>If you turn on reminders, Diadoku schedules local notifications on your device. They are not sent through a server, and you can turn them off in the app's settings or in iOS Settings at any time.</p>
+
       <h2>Consent and tracking choices</h2>
-      <p>Where required, Diadoku asks for advertising consent through Google's consent platform. On supported Apple devices, the app may also ask for permission through Apple's App Tracking Transparency prompt before data is used to track you across apps and websites owned by other companies. You may decline these requests. Core puzzle gameplay remains available if you decline.</p>
+      <p>Where required, Diadoku asks for consent for advertising and analytics through Google's consent platform. On supported Apple devices, the app may also ask for permission through Apple's App Tracking Transparency prompt before data is used to track you across apps and websites owned by other companies. You may decline these requests. Core puzzle gameplay remains available if you decline.</p>
       <p>You can review or change relevant choices in iOS Settings. Depending on your region and the choices available in the app, you may also be able to revisit advertising privacy options.</p>
 
       <h2>Optional rewarded ads</h2>
       <p>Rewarded ads are optional. They are requested only when you choose to watch an ad in exchange for an in-game hint. Declining an ad does not prevent normal gameplay.</p>
 
       <h2>Children</h2>
-      <p>Diadoku is a general-audience puzzle game and is not directed specifically to children. We do not knowingly collect personal information directly from children. Third-party advertising services may apply their own age-related rules and safeguards.</p>
+      <p>Diadoku is a general-audience puzzle game and is not directed specifically to children. We do not knowingly collect personal information directly from children. Third-party advertising services may apply their own age-related rules and safeguards. Players should not use their real name as their league player name.</p>
+
+      <h2>Legal bases and your rights</h2>
+      <p>Where the EU or UK General Data Protection Regulation applies, we process data for the star league to provide the leaderboard you take part in (legitimate interest), and we use analytics and personalised advertising only with your consent. You can withdraw consent at any time through the privacy options in the app or in iOS Settings; this does not affect processing before the withdrawal.</p>
+      <p>You have the right to request access to, correction of, deletion of, or a copy of your personal data, to restrict or object to its processing, and to lodge a complaint with a data protection supervisory authority. To make a request, contact us using the details below.</p>
 
       <h2>Data retention and deletion</h2>
-      <p>Local game information remains on your device until it is reset in the app, removed by iOS, or the app is deleted. Information processed by Google or its partners is retained according to their policies. You can reset Diadoku progress from the app's settings.</p>
+      <p>Local game information remains on your device until it is removed by iOS or the app is deleted. The iCloud copy remains in your iCloud account until you remove Diadoku's iCloud data in iOS Settings.</p>
+      <p>Star league data is kept while the league runs. To have your league data deleted, email us your current player name, and we will delete your player and its scores. Analytics data is kept for up to one year. Information processed by Google, WishKit or their partners is retained according to their policies.</p>
 
       <h2>International processing</h2>
-      <p>Third-party service providers may process information in countries other than the one where you live, subject to their privacy policies and applicable safeguards.</p>
+      <p>Our league server (Supabase) and analytics (PostHog) are hosted in the European Union. Other third-party service providers, such as Google, may process information in countries other than the one where you live, subject to their privacy policies and applicable safeguards.</p>
 
       <h2>Changes to this policy</h2>
       <p>We may update this policy when the app, legal requirements, or third-party services change. The effective date at the top of this page will be updated when changes are published.</p>
