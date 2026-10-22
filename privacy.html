@@ -48,6 +48,17 @@
       <h2>Duels</h2>
       <p>In a duel, two players solve the same board. When you play a duel, the app sends the following to our league server: the board you got, when and where you placed each diamond (marks are not sent), and the result. The server uses this to check the result and to count your trophies and your duels of the day. Your run may later be played back to another player as their opponent, together with your player name, gem, frame and trophies; they only see how many diamonds you had placed and how many hearts you had left, never where. Your trophies appear in the trophy ranking. Duel data is kept on the same server in the European Union as the league, and we use it only to run the duels and the trophy ranking.</p>
 
+      <h2>Friends and friendly duels</h2>
+      <p>You can add other players as friends and play live duels against them. Other players can find you by your player name. For this, the app and our league server use:</p>
+      <ul>
+        <li>your friends and friend requests: who asked whom, and when a request was accepted;</li>
+        <li>when you last had the app open, so your friends can see whether you are online or when you were last seen;</li>
+        <li>invitations to a friendly duel and whether they were accepted, and for each friendly duel the board, when and where you placed each diamond (marks are not sent) and the result. During the duel your friend sees how many diamonds you have placed and how many hearts you have left, and both of you see how many friendly duels each of you has won against the other;</li>
+        <li>players you block, who can then no longer find you or send you requests, and names you report.</li>
+      </ul>
+      <p>Friendly duels give no trophies and do not appear in any ranking. The live connection during a duel runs through the same server in the European Union.</p>
+      <p><strong>Notifications from friends.</strong> If you allow notifications, the app sends your iPhone's push token (an address Apple gives your device for this app) to our league server. We use it only to tell you, while the app is closed, that a friend invites you to a duel or sent you a friend request. These notifications are delivered through Apple Push Notification service and contain your friend's player name. When you turn off notifications for Diadoku, the app removes the token from our server, and a token that Apple reports as no longer valid is deleted too.</p>
+
       <h2>Usage analytics</h2>
       <p>To understand how the game is played and where it can be improved, Diadoku uses PostHog, hosted in the European Union. The app sends anonymous events such as levels started, completed, failed or left, hints and optional ads used, tutorial steps, which home screen buttons and settings are used, results shared, daily streaks, and when the app is opened. Each event comes with technical information such as the device model, iOS version, app version, language and time zone, and an anonymous random identifier for this installation.</p>
       <p>Analytics never include your name, email, advertising identifier, league player name or screen recordings, and they are not used for advertising or to track you across apps. PostHog may use your IP address to estimate an approximate location (such as the country), and we have set PostHog not to store the IP address itself. In the European Economic Area, the United Kingdom and Switzerland, analytics are only sent if you agree in the consent form to storing information on your device and to measuring content performance. We keep analytics data for up to one year. See <a href="https://posthog.com/privacy">PostHog's Privacy Policy</a> for more information.</p>
@@ -72,7 +83,7 @@
       <p>This information is used to operate the feedback board and associate submissions and votes with an installation. Diadoku does not send your email address, name, payment information, or a Diadoku account identifier to WishKit. Do not include sensitive personal information in feedback you submit. See <a href="https://www.wishkit.io/privacy-policy">WishKit's Privacy Policy</a> for more information.</p>
 
       <h2>Daily reminders</h2>
-      <p>If you turn on reminders, Diadoku schedules local notifications on your device. They are not sent through a server, and you can turn them off in the app's settings or in iOS Settings at any time.</p>
+      <p>If you turn on reminders, Diadoku schedules local notifications on your device. They are not sent through a server, and you can turn them off in the app's settings or in iOS Settings at any time. Notifications about friends are described under "Friends and friendly duels".</p>
 
       <h2>Consent and tracking choices</h2>
       <p>Where required, Diadoku asks for consent for advertising and analytics through Google's consent platform. On supported Apple devices, the app may also ask for permission through Apple's App Tracking Transparency prompt before data is used to track you across apps and websites owned by other companies. You may decline these requests. Core puzzle gameplay remains available if you decline.</p>
@@ -90,7 +101,7 @@
 
       <h2>Data retention and deletion</h2>
       <p>Local game information remains on your device until it is removed by iOS or the app is deleted. The iCloud copy remains in your iCloud account until you remove Diadoku's iCloud data in iOS Settings.</p>
-      <p>Star league data is kept while the league runs. To have your league data deleted, email us your current player name, and we will delete your player and its scores. Analytics data is kept for up to one year. Information processed by Google, WishKit or their partners is retained according to their policies.</p>
+      <p>Star league data is kept while the league runs. A friendship or friend request is deleted when you or your friend removes it. To have your league data deleted, email us your current player name, and we will delete your player with its scores, duels, friends and push token. Analytics data is kept for up to one year. Information processed by Google, WishKit or their partners is retained according to their policies.</p>
 
       <h2>International processing</h2>
       <p>Our league server (Supabase) and analytics (PostHog) are hosted in the European Union. Other third-party service providers, such as Google, may process information in countries other than the one where you live, subject to their privacy policies and applicable safeguards.</p>
